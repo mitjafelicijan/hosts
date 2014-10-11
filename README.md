@@ -38,7 +38,7 @@ the user input and pressing enter.
 
 ![alt text](screenshoots/window-disabled.png)
 
-| User input  | Second Header                   |
+| User input  | Description                     |
 | ----------- | ------------------------------- |
 | 1 .. n      | Hosts row id you want to toggle |
 | q or Q      | Quit application                |
