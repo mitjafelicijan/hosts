@@ -44,6 +44,13 @@ the user input and pressing enter.
 | q or Q      | Quit application                |
 | r or R      | Reload hosts list               |
 
+
+**Youtube video preview**
+
+Click on a thumbnail bellow.
+
+[![Youtube video](http://img.youtube.com/vi/03pb37Y-03g/3.jpg)](http://www.youtube.com/watch?v=03pb37Y-03g)
+
 ## Warning
 
 Please beware that this script updates /etc/hosts file so it is advised
