@@ -15,7 +15,7 @@ support this non-space comments.
 Installation 
 	
 	cd /path-to-wherever-you-want-your-script/
-	wget -O hosts.py https://github.com/mitjafelicijan/hosts/blob/master/hosts.py && chmod +x hosts.py
+	wget -O hosts.py https://raw.githubusercontent.com/mitjafelicijan/hosts/master/hosts.py && chmod +x hosts.py
 
 ## Usage
 
