@@ -117,10 +117,15 @@ def update_host(line_number):
 	updated = ''
 	for line in lines:
 		updated += line
-
-	hosts_file = open(config.hosts, 'w')
-	hosts_file.write(updated)
-	hosts_file.close()
+	try:
+		hosts_file = open(config.hosts, 'w')
+		hosts_file.write(updated)
+		hosts_file.close()
+	except:
+		print screen.newline + screen.dblspace + screen.red + screen.bold + 'Permission denied: /etc/hosts'
+		print screen.dblspace + 'Use script with root privileges or with sudo' + screen.endc +screen.dblnewline
+		sys.exit(0)
+	
 
 parse_arguments()
 
