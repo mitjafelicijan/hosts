@@ -1,5 +1,10 @@
 # /etc/hosts toggler
 
+## Updates
+
+ - (October 12, 2014) Added support for user input history. You can use up and down arrow
+to access previously entered host row id's.
+
 ## Installation
 
 If you have existing hosts defined please make sure that the ones commented have 

@@ -27,6 +27,10 @@ THE SOFTWARE.
 import sys
 import os.path
 import socket
+import readline
+
+readline.parse_and_bind('tab: complete')
+readline.parse_and_bind('set editing-mode vi')
 
 class config:
 	version = '0.0.1'
