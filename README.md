@@ -1,5 +1,13 @@
 # /etc/hosts toggler
 
+### Contact % Features
+
+You can contact me via:
+
+  - Twitter @mitjafelicijan or #clihosts
+  - Email <mitja.felicijan@gmail.com>
+  - Github issues <https://github.com/mitjafelicijan/hosts/issues>
+
 ## Updates
 
  - (October 12, 2014) Added support for user input history. You can use up and down arrow
