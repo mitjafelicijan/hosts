@@ -1,6 +1,6 @@
-# /etc/hosts toggler
+# CLI /etc/hosts easy toggler
 
-### Contact % Features
+### Contact & Features
 
 You can contact me via:
 
@@ -8,12 +8,14 @@ You can contact me via:
   - Email <mitja.felicijan@gmail.com>
   - Github issues <https://github.com/mitjafelicijan/hosts/issues>
 
-## Updates
+
+### Updates
 
  - (October 12, 2014) Added support for user input history. You can use up and down arrow
 to access previously entered host row id's.
 
-## Installation
+
+### Installation
 
 If you have existing hosts defined please make sure that the ones commented have 
 space between # and host otherwise script will not work properly. It is on a todo to
@@ -30,7 +32,8 @@ Installation
 	cd /path-to-wherever-you-want-your-script/
 	wget -O hosts.py https://raw.githubusercontent.com/mitjafelicijan/hosts/master/hosts.py && chmod +x hosts.py
 
-## Usage
+
+### Usage
 
 Because we are attempting to modify system files we need to execute script with root
 privileges. So use it with sudo.
@@ -57,19 +60,18 @@ the user input and pressing enter.
 | q or Q      | Quit application                |
 | r or R      | Reload hosts list               |
 
-
 **Youtube video preview**
 
 Click on a thumbnail bellow.
 
 [![Youtube video](http://img.youtube.com/vi/03pb37Y-03g/3.jpg)](http://www.youtube.com/watch?v=03pb37Y-03g)
 
-## Warning
+### Warning
 
 Please beware that this script updates /etc/hosts file so it is advised
 to make backup of the file before using it.
 
-## License
+### License
 
 The MIT License (MIT)
 
